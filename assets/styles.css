@@ -1,0 +1,89 @@
+body {
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#brandname{
+	color:red;
+	font-size: 35px ;
+	padding-top : 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 300;
+
+}
+
+.col-lg-4 {
+	float: :left;
+}
+
+.tech-header {
+	text-align: center
+}
+
+
+#navlinks{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+.nav-link:hover{
+	color : red;
+}
+
+.nav-item{
+	padding-right : 40px;
+	
+}
+
+.nav-link{
+	color: #404040;
+}
+
+#mainnavbar {
+	height: 50px;
+	padding-bottom : 0;
+}
+
+#about{
+	margin-top: 50px;
+}
+
+.col-lg-6 {
+	float: :left;
+}
+
+.infotext{
+	color: #404040;
+
+}
+
+.headertext-1{
+	color : red;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 300;
+	font-size : 30px;
+	text-align: center;
+}
+
+.headertext-2{
+	color : red;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 300;
+	font-size : 20px;
+}
+
+.container-fluid{
+	padding-top: 20px;
+}
+
+#technologies {
+	background: white;
+}
+
+section {
+	margin-top: 30px;
+}
+
+
+
