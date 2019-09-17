@@ -1,0 +1,27 @@
+{
+  "name": "desloubser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "jade": "^1.11.0",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desloubser80/desloubser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desloubser80/desloubser/issues"
+  },
+  "homepage": "https://github.com/desloubser80/desloubser#readme"
+}
