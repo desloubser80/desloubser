@@ -1,11 +1,11 @@
 body {
 	background: #bdc3c7;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #abadb0, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #abadb0, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to left, #bdc3c7, white);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #bdc3c7, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #brandname{
-	color:red;
+	color:#9D2933;
 	font-size: 35px ;
 	padding-top : 10px;
 	font-family: 'Roboto', sans-serif;
@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link:hover{
-	color : red;
+	color : #9D2933;
 }
 
 .nav-item{
@@ -39,14 +39,14 @@ body {
 
 .nav-link{
 	color: #404040;
-	background : #404040 ;
+	
 	
 }
 
 #mainnavbar {
 	height: 100px;
 	padding-bottom : 0;
-	background : #404040 ;
+	background : #e6e6ff ;
 }
 
 #about{
@@ -63,19 +63,23 @@ body {
 }
 
 .headertext-1{
-	color : red;
+	color : #9D2933;
 	font-family: 'Roboto', sans-serif;
 	font-weight : 300;
 	font-size : 30px;
 	text-align: center;
-	background : #6f7173;
+	background : #e6e6ff;
+	height : 40px;
 }
 
 .headertext-2{
-	color : red;
+	color : #9D2933;
 	font-family: 'Roboto', sans-serif;
 	font-weight : 300;
 	font-size : 20px;
+	
+	background : #e6e6ff;
+	text-align: center
 }
 
 .container-fluid{
@@ -83,7 +87,7 @@ body {
 }
 
 section {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #welcome {
@@ -95,7 +99,21 @@ section {
 }
 
 #profilepic {
-	max-height: 600px
+	max-height: 600px;
+	border-radius: 25%;
+}
+
+.card {
+	height : 225px;
+	margin-top: 30px;
+	background : #ABB7B7;
+	box-shadow: 3px 3px #9D2933
+}
+
+.jumbotron {
+	margin-top: 30px;
+	background : #ABB7B7;
+	box-shadow: 3px 3px #9D2933
 }
 
 
