@@ -94,6 +94,10 @@ section {
 	border: none;
 }
 
+#profilepic {
+	max-height: 600px
+}
+
 
 
 
