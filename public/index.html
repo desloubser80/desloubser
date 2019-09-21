@@ -17,6 +17,7 @@
 
     <!--Custom style sheets-->
 	<link rel="stylesheet" type="text/css" href="./assets/styles.css">
+	
 
 </head>
 <body>
@@ -118,12 +119,27 @@
 				  </div>
 				</div>		
 			</div>
+			<div class = "col-lg-3">
+				<div class="card">
+				  <h5 class="card-header headertext-2">OTHER</h5>
+				  <div class="card-body">
+				    <ul>
+						<li class = "infotext">GIT</li>
+						<li class = "infotext">HEROKU</li>
+						<li class = "infotext">POSTMAN</li>
+						<li class = "infotext">AWS</li>
+						<li class = "infotext">JIRA</li>
+						
+					</ul>
+				  </div>
+				</div>		
+			</div>
 		</div>
 	</div>	 
 </section>
 
 <section id = "experience">
-	<h1 class = "display-5 headertext-1">SOFTWARE DEVELOPMENT WORK EXPERIENCE</h1>
+	<h1 class = "display-5 headertext-1">EXPERIENCE</h1>
 	<div class = "container-fluid">
 		<div class = "row align-items-top justify-content-around">
 			<div class = "col-lg-6">
@@ -148,7 +164,7 @@
 
 <section id = "contact">
 	<h1 class = "display-5 headertext-1">GET IN TOUCH</h1>
-	<form >
+	<form action = "/email" method = "POST" >
 		<div class="form-group">
 	    	<label for="exampleFormControlInput1"></label>
 	    	<input type="email" class="form-control" id="exampleFormControlInput1" name = "email" placeholder="name@example.com">
@@ -156,10 +172,10 @@
 	
 		<div class="form-group d-block">
 	    	<label for="exampleFormControlTextarea1"></label>
-	    	<textarea class="form-control d-block" id="exampleFormControlTextarea1" name = message placeholder="your message" rows="5"></textarea>
+	    	<textarea class="form-control d-block" id="exampleFormControlTextarea1" name = "message" placeholder="your message" rows="5"></textarea>
 	    </div>
 	    <div class = "d-flex">
-	    	<button type="button" class="btn btn-secondary">SEND</button>
+	    	<button id = "btnSubmit" type="submit" class="btn btn-secondary">SEND</button>
 	    </div>
   		
 	</form>
@@ -171,6 +187,7 @@
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script type="text/javascript" src = "./assets/app.js"></script>
 
 
 
