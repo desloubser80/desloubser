@@ -111,8 +111,15 @@ section {
 	border-radius: 25%;
 }
 
-.card {
+.tech-card {
 	height : 225px;
+	margin-top: 30px;
+	background : #ABB7B7;
+	box-shadow: 3px 3px #9D2933
+}
+
+.project-card{
+	width : 50%;
 	margin-top: 30px;
 	background : #ABB7B7;
 	box-shadow: 3px 3px #9D2933
@@ -122,6 +129,7 @@ section {
 	margin-top: 30px;
 	background : #ABB7B7;
 	box-shadow: 3px 3px #9D2933;
+	height: 600px
 	
 }
 
@@ -150,6 +158,25 @@ form {
 .form-group{
 	margin : 10px auto;
 }
+
+.project-card{
+	float: left;
+	width: 10rem;
+	height: 25rem;
+}
+
+.card-img-top{
+	width: 10rem;
+	height: 10rem;
+}
+
+.lead{
+	margin-top : 40px;
+}
+
+
+
+
 
 
 

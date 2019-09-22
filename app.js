@@ -6,7 +6,9 @@ const hbs = require('hbs');
 const bodyParser = require ('body-parser');
 const sgMail = require('@sendgrid/mail');
 
-sgMail.setApiKey("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");
+
+//sgMail.setApiKey("process.env.sendGridKey");
+
 
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended : true}))
